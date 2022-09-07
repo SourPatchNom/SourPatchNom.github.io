@@ -1,0 +1,138 @@
+html, body { 
+	margin: 0; 
+	padding: 0; 
+	height: 100%; 
+	min-width: 400px;
+	min-height: 100%;
+	scroll-behavior: smooth;
+}
+
+p, ul {
+	font-size: 20px;
+}
+
+.header {
+	min-height: 350px;
+	min-width: 100%;
+}
+
+#headerTop {
+	min-height: 50px;
+}
+
+#headerLinkBar {
+	align-content: center;
+	vertical-align: middle;
+	padding: 12.5px;
+	font-size: 24px;
+}
+
+#headerLinkBar a:link {
+	font-style: normal;
+	color: #4a3225;
+	text-decoration: none;
+	text-align: center;
+}
+  
+#headerLinkBar a:hover {
+	font-style: normal;
+	color: #00013F;
+	text-decoration: none;
+	text-align: center;
+}
+
+#headerLinkBar a:visited {
+	font-style: normal;
+	color: #4a3225;
+	text-decoration: none;
+	text-align: center;
+}
+
+#headerLinkBar a:active {
+	font-style: normal;
+	color: #4a3225;
+	text-decoration: none;
+	text-align: center;
+}
+
+#headerLinkBar td {
+	padding-left: 25.5px;
+	padding-right: 25.5px;
+}
+
+#headerBottom {
+	min-height: 550px;
+	min-width: 100%;
+	background-image: url("headerbg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	vertical-align: middle;
+}
+
+#headerBottomLogo {
+	padding: 150px;
+}
+
+.contentPicLeft {
+	position: absolute;
+	padding: 50px;
+}
+
+.contentRight {
+	position: absolute;
+	padding: 50px;
+	left: 550px;
+}
+
+.bookButton {
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	border-width: thin;
+	border-style: solid;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.bookButton a:link {
+	font-style: normal;
+	color: #4a3225;
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+}
+  
+.bookButton a:hover {
+	font-style: normal;
+	color: #00013F;
+	text-decoration: none;
+	text-align: center;
+	font-size: 50px;
+}
+
+.bookButton a:visited {
+	font-style: normal;
+	color: #4a3225;
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+}
+
+.bookButton a:active {
+	font-style: normal;
+	color: #4a3225;
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+.footer {
+	position: fixed;
+	width: 100%;
+	height: 20px;
+	bottom: 0; 
+	left: 0;
+}
